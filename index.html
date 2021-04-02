@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <!-- Llamados a Javascript -->
+        <script src="index.js"></script>
+        <!-- llamado al estilo css -->
+        <link href="estilo.css" rel="stylesheet" />
+        <!-- Icono de la pagina -->
+        <link rel="shortcut icon" href="icono.png" type="image"/>
+        <title>Palíndromo</title>
+    </head>
+    <body>
+        <!--Cabecera de la pagina -->
+        <header>
+            Verificador de Palíndromos<br>
+        </header>
+        <!--Contenedores de la pagina -->
+        <div class="contenedor">
+            <textarea id="entrada" onkeyup="this.value=Textos(this.value)"></textarea>
+            <textarea id="salida" readonly="readonly"></textarea>
+        </div>
+        <button onclick="separar()"> ¿Es esta frase un Palindromo?</button>
+        <!--Pie de pagina -->
+        <footer>
+            Hecho por <br>Luz Yovanna Vivas Meza<br>
+            Estudiante de Tecnologia en Sistemas de Informacion
+        </footer>
+    </body>
+</html>
